@@ -15,7 +15,7 @@ function RecipeItem({name, time, servings, calories, difficulty,image}) {
                 <RecipeInfo text={servings + " servings"} icon={<CiPizza/>}/>
                 <RecipeInfo text={calories + " calories"} icon={<MdOutlineLunchDining/>}/>
                 
-                <RecipeInfo text={difficulty} icon={<GiNetworkBars/>}/>
+                <RecipeInfo text={difficulty+ " difficulty"} icon={<GiNetworkBars/>}/>
                 </div>
             
         </li>
